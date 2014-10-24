@@ -1,0 +1,86 @@
+---
+name: Siarhei Khilko
+position: Front End Engineer
+contact:
+  - Santa Clara, CA
+  - <a href="mailto:siarhei.khilko@gmail.com">siarhei.khilko@gmail.com</a>
+  - <a href="https://github.com/skhilko">github.com/skhilko</a>
+
+objective:
+  Seeking challenging opportunities in <em>FE web development / UI architecture</em> with the focus in development
+  of client-side web applications and stand alone UI widgets.
+
+skills:
+  current:
+    - JavaScript
+    - HTML
+    - CSS
+  prior:
+    - Java
+    - SQL
+  tech:
+    - Client-side MV* frameworks
+    - DOM API
+    - REST
+    - Responsive design
+    - CSS frameworks & preprocessors
+    - Templating engines
+    - Linux
+
+personal_project:
+  - <a href="http://skhilko.github.io/akno/" target="_blank">Akno</a> - A UI widget for creating beautiful modal windows.
+
+experience:
+  - period: Nov 2010 – Present
+    position: Software Engineer
+    company: Exadel, Inc.
+    contract-position: Technical Lead at Sears Holdings Corporation - Contractor, Redwood City, CA
+    duties:
+      - Redesigned front-end architecture of Sears Product Information Network application using client-side
+        MVC approach with JavaScriptMVC on the client and Jersey REST Web Services in Java on the server side.
+        Lead development efforts to apply new design principles.
+      - Created and managed build workflow for front-end codebase to facilitate ease of development (automatic
+        recompilation, tests, documentation) and maximize performance in production (assets optimization, cache control).
+      - Designed and maintained a library of rich UI components including data grid, autocomplete, combobox, dialog, etc.
+
+  - period: Jun 2009 – Nov 2010
+    position: Software Engineer
+    company: Exadel Foreign LLC, Belarus
+    contract-position: Front-end Team Lead at Sears Holdings Corporation - Offshore Team, Minsk, Belarus
+    duties:
+      - Led a team of 5 engineers in end-to-end web application development.
+      - Implemented features for Sears Marketplace Seller Portal using a proprietary Java MVC framework, JSP, jQuery and jQuery UI.
+      - Contributed to Sears MVC framework.
+
+  - period: Feb 2008 – May 2009
+    position: Software Engineer
+    company: EPAM Systems, Belarus
+    contract-position: Software Engineer at SupplyOn AG - Offshore Team, Minsk, Belarus
+    projects:
+    duties:
+      - Developed a library of rich UI components for JSF using GWT, Richfaces and JavaScript.
+      - Implemented various areas of a sourcing management portal on
+        <a href="http://en.wikipedia.org/wiki/SAP_NetWeaver" target="_blank">SAP NetWeaver</a> technology stack including
+        the presentation layer with JSF and Facelets, business logic and persistence with EJB.
+      #- Reverse-enginered a legacy SAP authentication system and implemented authentification mechanism for a new module.
+
+  - period: Jan 2004 – Jan 2008
+    position: Software Engineer
+    company: Autopromservice, Belarus
+    duties:
+      - Developed an appointment scheduling web application for a service center using Apache Struts MVC framework and JDBC.
+      - Deployed and facilitated the adaptation of <a href="http://1c-dn.com/1c_enterprise/what_is_1c_enterprise/" target="_blank">1C:Enterprise</a>
+        CRM platform. Subsequently developed business and reporting modules for day-to-day operational needs of an
+        accounting department, a warehouse and a service center.
+
+education:
+  - period: 2005
+    degree: Master in Computer Science
+    school: Belarusian State University of Informatics and Radioelectronics
+
+  - period: 2002
+    degree: Associate in Electronics Engineering Technology
+    school: Minsk State Higher College of Radio Engineering
+
+awards:
+  - Sun Certified Programmer for the Java Platform, Standard Edition 6 (2008)

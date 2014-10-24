@@ -1,0 +1,15 @@
+# Site settings
+author: Siarhei Khilko
+title: Siarhei Khilko's Resume | Front-end Engineer
+description: >
+  View Siarhei Khilko's resume. Front-end engineer focusing in development
+  of client-side web applications and stand alone UI widgets.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://skhilko.github.io" # the base hostname & protocol for your site
+github_username:  skhilko
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: :compressed

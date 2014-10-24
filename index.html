@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+{% assign cv = site.data.cv %}
+<section class="cv-section row">
+    <div class="medium-3 columns">
+        <h3 class="narrow cv-section-title">Objective</h3>
+    </div>
+    <div class="medium-9 columns">
+        <p>{{ cv.objective }}</p>
+    </div>
+</section>
+<section class="cv-section row">
+    <div class="medium-3 columns">
+        <h3 class="narrow cv-section-title">Skills</h3>
+    </div>
+    <div class="cv-skills-section-content medium-9 columns">
+        <div class="row">
+            <div class="medium-6 columns">
+                <section>
+                    <h5>Languages</h5>
+                    <ul class="cv-list">
+                    {% for skill in cv.skills.current %}
+                        <li>{{ skill }}</li>
+                    {% endfor %}
+                    </ul>
+                    <h6 class="subheader">Prior Experience</h6>
+                    <ul class="cv-list">
+                    {% for skill in cv.skills.prior %}
+                        <li>{{ skill }}</li>
+                    {% endfor %}
+                    </ul>
+                </section>
+            </div>
+            <div class="medium-6 columns">
+                <section>
+                    <h5>Technologies</h5>
+                    <ul class="cv-list">
+                    {% for skill in cv.skills.tech %}
+                        <li>{{ skill }}</li>
+                    {% endfor %}
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cv-section row">
+    <div class="medium-3 columns">
+        <h3 class="narrow cv-section-title">Personal Projects</h3>
+    </div>
+    <div class="cv-section-content medium-9 columns">
+        <section class="cv-item">
+            {% for projects in cv.personal_project %}
+            <p>{{ projects }}</p>
+            {% endfor %}
+        </section>
+    </div>
+</section>
+<section class="cv-section row">
+    <div class="medium-3 columns">
+        <h3 class="cv-section-title">Work Experience</h3>
+    </div>
+    <div class="medium-9 columns">
+        {% for exp in cv.experience %}
+        <section class="cv-item">
+            <p class="period">{{ exp.period }}</p>
+            <h4 class="subheader">{{ exp.position }}</h4>
+            <h5>{{ exp.company }}</h5>
+            <h6>{{ exp.contract-position }}</h6>
+            <ul class="cv-list">
+                {% for duty in exp.duties %}
+                <li>{{ duty }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endfor %}
+    </div>
+</section>
+<section class="cv-section row">
+    <div class="medium-3 columns">
+        <h3 class="cv-section-title">Education</h3>
+    </div>
+    <div class="medium-9 columns">
+        {% for edu in cv.education %}
+        <h4 class="subheader">{{ edu.degree }}</h4>
+        <h5>{{ edu.school }}, {{ edu.period }}</h5>
+        {% endfor %}
+    </div>
+</section>
+<section class="cv-section row">
+    <div class="medium-3 columns">
+        <h3 class="narrow cv-section-title">Certifications</h3>
+    </div>
+    <div class="medium-9 columns">
+        {% for award in cv.awards %}
+        <p>{{ award }}</p>
+        {% endfor %}
+    </div>
+</section>

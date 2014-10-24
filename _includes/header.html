@@ -1,0 +1,19 @@
+{% assign cv = site.data.cv %}
+<header>
+    <section class="cv-section row small-only-text-center medium-only-text-center">
+        <div class="large-offset-3 large-6 columns">
+            <h1>{{ cv.name }}
+                <small>{{ cv.position }}</small>
+            </h1>
+        </div>
+        <div class="large-3 columns">
+            <address>
+                <ul class="vcard">
+                    {% for contact in cv.contact %}
+                    <li>{{ contact }}</li>
+                    {% endfor %}
+                </ul>
+            </address>
+        </div>
+    </section>
+</header>
