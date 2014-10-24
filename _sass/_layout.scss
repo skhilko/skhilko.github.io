@@ -108,6 +108,10 @@ h1 small {
 
 
 @media print {
+    @page {
+        margin: 1in;
+    }
+
     html,
     body {
         font-size: 10pt;
@@ -127,7 +131,7 @@ h1 small {
 
     .cv-skills-section-content {
         .columns {
-            width: 33%;
+            width: 50%;
             float: left !important;
         }
     }
