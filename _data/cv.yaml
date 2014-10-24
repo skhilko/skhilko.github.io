@@ -7,7 +7,7 @@ contact:
   - <a href="https://github.com/skhilko">github.com/skhilko</a>
 
 objective:
-  Seeking challenging opportunities in <em>FE web development / UI architecture</em> with the focus in development
+  Seeking challenging opportunities in <em>FE web development / UI architecture</em> with the focus on development
   of client-side web applications and stand alone UI widgets.
 
 skills:
@@ -24,7 +24,7 @@ skills:
     - REST
     - Responsive design
     - CSS frameworks & preprocessors
-    - Templating engines
+    - Template engines
     - Linux
 
 personal_project:
@@ -37,11 +37,11 @@ experience:
     contract-position: Technical Lead at Sears Holdings Corporation - Contractor, Redwood City, CA
     duties:
       - Redesigned front-end architecture of Sears Product Information Network application using client-side
-        MVC approach with JavaScriptMVC on the client and Jersey REST Web Services in Java on the server side.
+        MVC approach with JavaScriptMVC on the client and Jersey REST Web Services in Java on the server-side.
         Lead development efforts to apply new design principles.
-      - Created and managed build workflow for front-end codebase to facilitate ease of development (automatic
-        recompilation, tests, documentation) and maximize performance in production (assets optimization, cache control).
-      - Designed and maintained a library of rich UI components including data grid, autocomplete, combobox, dialog, etc.
+      - Created and managed build process for front-end codebase to ease the development (automatic recompilation, tests,
+        documentation) and maximize performance in production (assets optimization, cache control).
+      - Designed and maintained a library of rich UI components including a data grid, autocomplete, combobox, dialog, etc.
 
   - period: Jun 2009 – Nov 2010
     position: Software Engineer
@@ -59,8 +59,8 @@ experience:
     projects:
     duties:
       - Developed a library of rich UI components for JSF using GWT, Richfaces and JavaScript.
-      - Implemented various areas of a sourcing management portal on
-        <a href="http://en.wikipedia.org/wiki/SAP_NetWeaver" target="_blank">SAP NetWeaver</a> technology stack including
+      - Implemented various areas of a sourcing management portal using
+        <a href="http://en.wikipedia.org/wiki/SAP_NetWeaver" target="_blank">SAP NetWeaver</a> technology stack, including
         the presentation layer with JSF and Facelets, business logic and persistence with EJB.
       #- Reverse-enginered a legacy SAP authentication system and implemented authentification mechanism for a new module.
 
@@ -68,10 +68,10 @@ experience:
     position: Software Engineer
     company: Autopromservice, Belarus
     duties:
-      - Developed an appointment scheduling web application for a service center using Apache Struts MVC framework and JDBC.
-      - Deployed and facilitated the adaptation of <a href="http://1c-dn.com/1c_enterprise/what_is_1c_enterprise/" target="_blank">1C:Enterprise</a>
-        CRM platform. Subsequently developed business and reporting modules for day-to-day operational needs of an
-        accounting department, a warehouse and a service center.
+      - Developed an appointment scheduling web application for a service center using the Apache Struts MVC framework and JDBC.
+      - Deployed <a href="http://1c-dn.com/1c_enterprise/what_is_1c_enterprise/" target="_blank">1C:Enterprise Platform</a>.
+        Subsequently developed business and reporting modules for day-to-day operational needs of an accounting department,
+        a warehouse and a service center.
 
 education:
   - period: 2005
