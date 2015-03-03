@@ -61,7 +61,7 @@ experience:
       - Developed a library of rich UI components for JSF using GWT, Richfaces and JavaScript.
       - Implemented various areas of a sourcing management portal using
         <a href="http://en.wikipedia.org/wiki/SAP_NetWeaver" target="_blank">SAP NetWeaver</a> technology stack, including
-        the presentation layer with JSF and Facelets, business logic and persistence with EJB.
+        the presentation layer with JSF, business logic and persistence with EJB.
       #- Reverse-enginered a legacy SAP authentication system and implemented authentification mechanism for a new module.
 
   - period: Jan 2004 – Jan 2008
