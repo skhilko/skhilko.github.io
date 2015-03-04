@@ -14,6 +14,36 @@ h1 small {
     float: right;
 }
 
+.sidebar {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.sidebar-button {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 2px;
+    background-color: $purple;
+    margin-bottom: 5px;
+    transition: background-color 300ms;
+    text-align: center;
+
+    &:hover {
+        background-color: #5a5678;
+    }
+}
+
+.sidebar-button-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    fill: #fff;
+}
+
 @media #{$screen} {
     .cv-section {
         padding: 65px 0;
@@ -87,6 +117,13 @@ h1 small {
     }
 }
 
+/* @media #{$screen} and (max-width:#{upper-bound($medium-range)}) {
+    // TODO make a sandwich menu from sidebar
+    .sidebar {
+        display: none;
+    }
+} */
+
 /* small and medium screens only */
 @media #{$screen} and (max-width:#{upper-bound($medium-range)}) {
     h1,
@@ -96,6 +133,17 @@ h1 small {
 }
 
 @media #{$medium-up} {
+    .cv-section-title {
+        margin-top: 0;
+
+        // reducing the height for titles which don't have a matching title on the right
+        &.narrow {
+            margin-top: rem-calc(-10);
+        }
+    }
+}
+
+@media #{$large-up} {
     .cv-section-title {
         margin-top: 0;
 
@@ -138,6 +186,10 @@ h1 small {
 
     .cv-item {
         page-break-inside: avoid;
+    }
+
+    .sidebar {
+        display: none;
     }
 
     footer {
