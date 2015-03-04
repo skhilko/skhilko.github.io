@@ -34,7 +34,7 @@ experience:
   - period: Nov 2010 – Present
     position: Software Engineer
     company: Exadel, Inc.
-    contract-position: Technical Lead at Sears Holdings Corporation - Contractor, Redwood City, CA
+    contract-position: Front-end Technical Lead at Sears Holdings Corporation - Contractor (Redwood City, CA)
     duties:
       - Redesigned front-end architecture of Sears Product Information Network application using client-side
         MVC approach with JavaScriptMVC on the client and Jersey REST Web Services in Java on the server-side.
@@ -45,8 +45,8 @@ experience:
 
   - period: Jun 2009 – Nov 2010
     position: Software Engineer
-    company: Exadel Foreign LLC, Belarus
-    contract-position: Front-end Team Lead at Sears Holdings Corporation - Offshore Team, Minsk, Belarus
+    company: Exadel, Inc.
+    contract-position: Front-end Team Lead at Sears Holdings Corporation - Offshore Team (Minsk, Belarus)
     duties:
       - Led a team of 5 engineers in end-to-end web application development.
       - Implemented features for Sears Marketplace Seller Portal using a proprietary Java MVC framework, JSP, jQuery and jQuery UI.
@@ -54,8 +54,8 @@ experience:
 
   - period: Feb 2008 – May 2009
     position: Software Engineer
-    company: EPAM Systems, Belarus
-    contract-position: Software Engineer at SupplyOn AG - Offshore Team, Minsk, Belarus
+    company: EPAM Systems
+    contract-position: Software Engineer at SupplyOn AG - Offshore Team (Minsk, Belarus)
     projects:
     duties:
       - Developed a library of rich UI components for JSF using GWT, Richfaces and JavaScript.
