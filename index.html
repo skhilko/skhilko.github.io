@@ -25,7 +25,7 @@ layout: default
                         <li>{{ skill }}</li>
                     {% endfor %}
                     </ul>
-                    <h6 class="subheader">Prior Experience</h6>
+                    <h5>Prior Experience</h5>
                     <ul class="cv-list">
                     {% for skill in cv.skills.prior %}
                         <li>{{ skill }}</li>
@@ -66,7 +66,7 @@ layout: default
         {% for exp in cv.experience %}
         <section class="cv-item">
             <p class="period">{{ exp.period }}</p>
-            <h4 class="subheader">{{ exp.position }}</h4>
+            <h4><strong>{{ exp.position }}</strong></h4>
             <h5>{{ exp.company }}</h5>
             <h6>{{ exp.contract-position }}</h6>
             <ul class="cv-list">
@@ -84,8 +84,8 @@ layout: default
     </div>
     <div class="medium-9 columns">
         {% for edu in cv.education %}
-        <h4 class="subheader">{{ edu.degree }}</h4>
-        <h5>{{ edu.school }}, {{ edu.period }}</h5>
+        <h4>{{ edu.degree }}</h5>
+        {{ edu.school }}, {{ edu.period }}
         {% endfor %}
     </div>
 </section>
