@@ -52,9 +52,11 @@ layout: default
     </div>
     <div class="cv-section-content medium-9 columns">
         <section class="cv-item">
+            <ul class="cv-list">
             {% for projects in cv.personal_project %}
-            <p>{{ projects }}</p>
+            <li>{{ projects }}</li>
             {% endfor %}
+            </ul>
         </section>
     </div>
 </section>

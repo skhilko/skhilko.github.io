@@ -29,6 +29,7 @@ skills:
 
 personal_project:
   - <a href="http://skhilko.github.io/akno/" target="_blank">Akno</a> - A UI widget for creating fast and beautiful modal dialogs.
+  - <a href="http://skhilko.github.io/StickyHeaders/" target="_blank">StickyHeaders</a> - A JS library which enables sticky section headers in a scrollable list view.
 
 experience:
   - period: Nov 2010 – Present
