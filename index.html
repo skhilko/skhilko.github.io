@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign cv = site.data.cv %}
+{% if cv.objective %}
 <section class="cv-section row">
     <div class="medium-3 columns">
         <h3 class="narrow cv-section-title">Objective</h3>
@@ -11,6 +12,7 @@ layout: default
         <p>{{ cv.objective }}</p>
     </div>
 </section>
+{% endif %}
 <section class="cv-section row">
     <div class="medium-3 columns">
         <h3 class="narrow cv-section-title">Skills</h3>
