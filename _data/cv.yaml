@@ -1,14 +1,14 @@
 ---
-name: Siarhei Khilko
+name: Sergey Khilko
 position: Front End Engineer
 contact:
   - Santa Clara, CA
   - <a href="mailto:siarhei.khilko@gmail.com">siarhei.khilko@gmail.com</a>
   - <a href="https://github.com/skhilko">github.com/skhilko</a>
 
-objective:
-  Challenging position with a creative work environment where I can further my career as a front-end web developer,
-  and utilize technologies such as HTML5, CSS3, and JavaScript to create intuitive, elegant, and cutting-edge user experiences.
+# objective:
+#   Challenging position with a creative work environment where I can further my career as a front-end web developer,
+#   and utilize technologies such as HTML5, CSS3, and JavaScript to create intuitive, elegant, and cutting-edge user experiences.
 
 skills:
   current:
@@ -32,7 +32,10 @@ personal_project:
   - <a href="http://skhilko.github.io/StickyHeaders/" target="_blank">StickyHeaders</a> - A JS library which enables sticky section headers in a scrollable list view.
 
 experience:
-  - period: Nov 2010 – Present
+  - period: May 2015 – Present
+    position: Sr. Software Engineer
+    company: Personal Capital
+  - period: Nov 2010 – Apr 2015
     position: Software Engineer
     company: Exadel, Inc.
     contract-position: Front-end Technical Lead at Sears Holdings Corporation - Contractor (Redwood City, CA)
